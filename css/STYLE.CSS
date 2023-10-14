@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(245, 235, 241);
+}
+nav{
+    background: linear-gradient(to right, #4253a0, #db9880); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+     padding: 5px;
+   text-align: end; 
+}
+nav ul img{
+padding-right: 150px;
+}
+nav ul li{
+    list-style: none;
+
+    
+    padding: 5px 10px;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    
+    
+}
+nav ul li a:hover{
+    background-color: rgba(240, 255, 255, 0.42);
+}
+
+.main{
+    width: fit-content;
+margin: 20px;
+    
+}
+.first{
+    width: 500px;
+    text-align:initial;
+    display: inline-block;
+font-size: 20px;
+font-family:Arial, Helvetica, sans-serif;
+}
+.first span{
+    color: red;
+}
+.first a{
+    text-decoration: none;
+    background-color: red;
+    transition: 0.5s;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.first a:hover{
+    background-color: rgba(236, 162, 162, 0.37);
+    color: red;
+}
+.second{
+    
+    display: inline-block;
+    text-align: center;
+}
+.second iframe{
+    border-radius: 10px;
+}
+
+#browse{
+    
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+}
+
